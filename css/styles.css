@@ -9,9 +9,7 @@ body {
   color: #212121;
 }
 
-.logolink {
-  text-decoration: none;
-}
+
 .logo1 {
   font-family: Raleway;
   font-size: 26px;
@@ -37,36 +35,19 @@ body {
   color: #ffffff;
 }
 
-.navigation {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-align: left;
-  list-style: none;
-}
-.links {
-  text-decoration: none;
-  color: var(--brand-color);
-}
 .active {
   color: var(--hover);
 }
 .emailtel {
   list-style: none;
+  display: flex;
+
 }
 
-.contact {
-  text-decoration: none;
-  list-style: none;
-  color: var(--lorem);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
+
 address {
   font-style: normal;
+display: flex;
 }
 .adres {
   font-size: 14px;
@@ -81,7 +62,7 @@ a:hover {
 a:focus {
   color: var(--hover);
 }
-.buttonkey{
+.buttonkey {
   list-style: none;
 }
 button.button {
@@ -149,8 +130,8 @@ button.button:focus {
   text-align: left;
   color: var(--brand-color);
 }
-.insider{
-  list-style: none; 
+.insider {
+  list-style: none;
 }
 .lorem {
   font-size: 14px;
@@ -204,4 +185,61 @@ button.button-home {
 }
 footer {
   background-color: #2f303a;
+}
+
+/* zadanie domowe 3 */
+.container-header {
+ box-sizing: border-box;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 15px;
+ width: 100%;
+ max-width: 1200px;
+margin-right: auto;
+margin-left: auto;
+ background-color: #ffffff;
+}
+.navigation {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 371px 32px 46px;
+
+}
+.links {
+  text-decoration: none;
+  color: var(--brand-color);
+  padding: 32px 46px 32px 93px;
+}
+.contact {
+  text-decoration: none;
+  list-style: none;
+  color: var(--lorem);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+ 
+}
+.emailcontact{
+  display:flex;
+  height: 16px;
+width: 135px;
+}
+.telcontact{
+  height: 16px;
+width: 110px;
+}
+.logolink {
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  padding: 24px 93px 25px 215px;
 }
