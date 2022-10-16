@@ -9,6 +9,15 @@ body {
   color: #212121;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 
 .logo1 {
   font-family: Raleway;
@@ -38,16 +47,16 @@ body {
 .active {
   color: var(--hover);
 }
-.emailtel {
+.navcontact {
   list-style: none;
   display: flex;
-
+  justify-content: stretch;
+  align-items:center;
+  gap: 50px;
 }
-
-
 address {
   font-style: normal;
-display: flex;
+  display: flex;
 }
 .adres {
   font-size: 14px;
@@ -188,19 +197,25 @@ footer {
 }
 
 /* zadanie domowe 3 */
-.container-header {
- box-sizing: border-box;
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 0 15px;
- width: 100%;
- max-width: 1200px;
-margin-right: auto;
-margin-left: auto;
- background-color: #ffffff;
+.wrapper-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+  border-bottom: 1 solid #ececec;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-list {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -208,15 +223,13 @@ margin-left: auto;
   text-align: left;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 32px 371px 32px 46px;
-
 }
 .links {
   text-decoration: none;
   color: var(--brand-color);
-  padding: 32px 46px 32px 93px;
+  padding-left: 46px;
 }
 .contact {
   text-decoration: none;
@@ -226,20 +239,11 @@ margin-left: auto;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
- 
-}
-.emailcontact{
-  display:flex;
-  height: 16px;
-width: 135px;
-}
-.telcontact{
-  height: 16px;
-width: 110px;
 }
 .logolink {
   text-decoration: none;
   width: 145px;
   height: 31px;
-  padding: 24px 93px 25px 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
