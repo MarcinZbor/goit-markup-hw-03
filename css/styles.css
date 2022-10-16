@@ -57,6 +57,7 @@ h6 {
 address {
   font-style: normal;
   display: flex;
+  flex-direction: column;
 }
 .adres {
   font-size: 14px;
@@ -124,13 +125,14 @@ button.button:focus {
 }
 
 /* /Stylizacja do index.html/ */
-.h1 {
+.sectiontext {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;
+  margin: 0 auto;
 }
 .inside1 {
   font-size: 14px;
@@ -141,6 +143,9 @@ button.button:focus {
 }
 .insider {
   list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+gap: 30px;
 }
 .lorem {
   font-size: 14px;
@@ -155,12 +160,21 @@ button.button:focus {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--brand-color);
+  padding-top: 94px;
 }
 .picinside2 {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.inside21 {
-  list-style: none;
+.contaninerinside{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
 }
 .John {
   font-size: 16px;
@@ -186,30 +200,24 @@ button.button-home {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 42px;
-  padding-right: 41px;
 }
 footer {
   background-color: #2f303a;
 }
 
 /* zadanie domowe 3 */
-.wrapper-header {
+.container {
   max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
   width: 100%;
   padding: 0 15px;
-  border-bottom: 1 solid #ececec;
 }
-.container {
+.wrapper-header {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -246,4 +254,40 @@ footer {
   height: 31px;
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.container-section{
+  width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  background-color: #2F303A;
+}
+.section{
+padding-top: 94px;
+padding-bottom: 94px;
+margin: 0 auto;
+text-align: center;
+}
+.ulinside{
+  display:flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  list-style: none;
+  background-color: #f5f4fa;
+}
+.item{
+  flex-basis: calc((100%-20px)/4);
+  background-color: #ffffff;
+}
+.container-members{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  background-color: #f5f4fa;
+}
+.footerflex{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
