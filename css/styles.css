@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+}
+
 :root {
   --brand-color: #212121;
   --brand-background: #f5f4fa;
@@ -50,8 +57,8 @@ h6 {
 .navcontact {
   list-style: none;
   display: flex;
-  justify-content: stretch;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 address {
@@ -65,6 +72,7 @@ address {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+  padding-top: 20px;
 }
 a:hover {
   color: var(--hover);
@@ -145,7 +153,7 @@ button.button:focus {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
-gap: 30px;
+  gap: 30px;
 }
 .lorem {
   font-size: 14px;
@@ -153,6 +161,7 @@ gap: 30px;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--lorem);
+  padding-top: 10px;
 }
 .inside2 {
   font-size: 36px;
@@ -161,6 +170,7 @@ gap: 30px;
   text-align: center;
   color: var(--brand-color);
   padding-top: 94px;
+  padding-bottom: 50px;
 }
 .picinside2 {
   list-style: none;
@@ -168,9 +178,8 @@ gap: 30px;
   justify-content: center;
   gap: 30px;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
-.contaninerinside{
+.contaninerinside {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
@@ -183,6 +192,7 @@ gap: 30px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--brand-color);
+  padding-top: 30px;
 }
 .insidejohn {
   font-size: 16px;
@@ -190,6 +200,8 @@ gap: 30px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--lorem);
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 button.button-home {
   cursor: pointer;
@@ -222,6 +234,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  flex-grow: 2;
 }
 .navigation-list {
   font-size: 14px;
@@ -247,6 +262,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+  /* padding-bottom: 9px; */
 }
 .logolink {
   text-decoration: none;
@@ -254,47 +270,47 @@ footer {
   height: 31px;
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 94px;
 }
-.container-section{
+.container-section {
   width: 1200px;
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
-.section{
-padding-top: 94px;
-padding-bottom: 94px;
-margin: 0 auto;
-text-align: center;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  text-align: center;
 }
-.ulinside{
-  display:flex;
+.ulinside {
+  display: flex;
   flex-wrap: nowrap;
   gap: 30px;
   list-style: none;
   background-color: #f5f4fa;
   padding-bottom: 0px;
 }
-.item{
-  flex-basis: calc((100%-20px)/4);
+.item {
+  flex-basis: calc((100%-20px) / 4);
   background-color: #ffffff;
 }
-.container-members{
+.container-members {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
   background-color: #f5f4fa;
 }
-.footerflex{
-  display:flex;
+.footerflex {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.section-team{
+.section-team {
   padding-top: 94px;
-margin: 0 auto;
-text-align: center;
-
+  margin: 0 auto;
+  text-align: center;
 }
