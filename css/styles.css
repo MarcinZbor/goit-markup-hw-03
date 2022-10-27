@@ -309,13 +309,6 @@ footer {
   flex-basis: calc((100%-90px) / 4);
   background-color: #ffffff;
 }
-.container-members {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 15px;
-  background-color: #f5f4fa;
-}
 .footerflex {
   display: flex;
   flex-direction: column;
