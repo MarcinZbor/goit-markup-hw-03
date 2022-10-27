@@ -26,6 +26,9 @@ h6 {
   padding: 0;
 }
 
+header{
+  border-bottom: 1px solid #ececec;
+}
 .logo1 {
   font-family: Raleway;
   font-size: 26px;
@@ -238,7 +241,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -277,10 +279,8 @@ footer {
 }
 .logolink {
   text-decoration: none;
-  width: 145px;
-  height: 31px;
   padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   margin-right: 94px;
   margin-bottom: 20px;
 }
@@ -334,4 +334,8 @@ footer {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+.imagepic{
+  display: block;
+
 }
