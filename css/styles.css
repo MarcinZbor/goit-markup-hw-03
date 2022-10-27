@@ -306,7 +306,7 @@ footer {
   padding-bottom: 0px;
 }
 .item {
-  flex-basis: calc((100%-90px) / 4);
+  /* flex-basis: calc((100%-90px) / 4); */
   background-color: #ffffff;
 }
 .footerflex {
@@ -330,5 +330,4 @@ footer {
 }
 .imagepic{
   display: block;
-
 }
